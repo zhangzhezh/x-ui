@@ -862,6 +862,7 @@ class Inbound extends XrayCommonClass {
             case Protocols.VMESS:
             case Protocols.VLESS:
             case Protocols.TROJAN:
+            case Protocols.SOCKS:
             case Protocols.SHADOWSOCKS:
                 return true;
             default:
